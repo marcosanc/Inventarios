@@ -1,0 +1,16 @@
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\bin\Debug\ETSinventarios.exe.config
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\bin\Debug\ETSinventarios.exe
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\bin\Debug\ETSinventarios.pdb
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.csprojResolveAssemblyReference.cache
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.IniciarSesion.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.Inicio.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.Menu.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.Properties.Resources.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.csproj.GenerateResource.Cache
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.exe
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.pdb
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.Registro.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\obj\Debug\ETSinventarios.EditarUsuario.resources
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\bin\Debug\MiLibreria.dll
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\ETSinventarios\bin\Debug\MiLibreria.pdb

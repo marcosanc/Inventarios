@@ -1,0 +1,6 @@
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\bin\Debug\MiLibreria.dll
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\bin\Debug\MiLibreria.pdb
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\obj\Debug\MiLibreria.csproj.CoreCompileInputs.cache
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\obj\Debug\MiLibreria.dll
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\obj\Debug\MiLibreria.pdb
+C:\Users\marco\source\repos\Inventarios\ETSinventarios\MiLibreria\obj\Debug\MiLibreria.csprojResolveAssemblyReference.cache
