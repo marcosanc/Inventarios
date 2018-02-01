@@ -16,7 +16,7 @@ namespace MiLibreria
             Con.Open();
 
             DataSet DS = new DataSet();
-            SqlDataAdapter DP = new SqlDataAdapter(cmd, Con);
+            SqlDataAdapter DP = new SqlDataAdapter(cmd, Con); 
 
             DP.Fill(DS);
 

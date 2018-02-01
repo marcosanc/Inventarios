@@ -21,7 +21,7 @@ namespace ETSinventarios
         {
             Registro registro = new Registro();
             registro.MdiParent = this;
-            registro.Show();
+            registro.Show(); 
         }
 
         private void verUsuarioToolStripMenuItem_Click(object sender, EventArgs e)

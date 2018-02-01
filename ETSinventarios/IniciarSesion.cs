@@ -26,7 +26,7 @@ namespace ETSinventarios
             {
                 string CMD = string.Format("SELECT * FROM Usuario WHERE Nombre = '{0}' AND Clave = '{1}'", texUsuario.Text.Trim(), texPassword.Text.Trim());
 
-                DataSet ds = Utilidades.Ejecutar(CMD);
+                DataSet ds = Utilidades.Ejecutar(CMD); 
 
                 string cuenta = ds.Tables[0].Rows[0]["Nombre"].ToString().Trim();
                 string password = ds.Tables[0].Rows[0]["Clave"].ToString().Trim();

@@ -23,7 +23,7 @@ namespace ETSinventarios
         {
                 IniciarSesion iniciarSesion = new IniciarSesion();
                 iniciarSesion.Show();
-                this.Hide();
+                this.Hide(); 
         }
     }
 }
