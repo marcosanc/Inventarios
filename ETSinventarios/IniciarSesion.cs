@@ -37,7 +37,7 @@ namespace ETSinventarios
 
                     Menu menu = new Menu();
                     menu.Show();
-                    this.Hide();
+                    this.Hide(); 
                 }
             }
             catch(Exception error)
