@@ -59,5 +59,10 @@ namespace ETSinventarios
             iniciarSesion.Show();
             this.Hide();
         }
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
