@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETSinventarios", "ETSinventarios\ETSinventarios.csproj", "{EB657B2F-7C79-47B9-9A52-102428505D40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiLibreria", "MiLibreria\MiLibreria.csproj", "{7C1AE9F0-7E93-455C-A77C-BA6384D8BBE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{7BAE93A8-8A89-4852-B9FC-EB812E42ABA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EB657B2F-7C79-47B9-9A52-102428505D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB657B2F-7C79-47B9-9A52-102428505D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB657B2F-7C79-47B9-9A52-102428505D40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C1AE9F0-7E93-455C-A77C-BA6384D8BBE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C1AE9F0-7E93-455C-A77C-BA6384D8BBE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C1AE9F0-7E93-455C-A77C-BA6384D8BBE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C1AE9F0-7E93-455C-A77C-BA6384D8BBE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAE93A8-8A89-4852-B9FC-EB812E42ABA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAE93A8-8A89-4852-B9FC-EB812E42ABA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAE93A8-8A89-4852-B9FC-EB812E42ABA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAE93A8-8A89-4852-B9FC-EB812E42ABA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
-using MiLibreria;
+using MyLibrary;
 
 namespace ETSinventarios
 {
@@ -20,24 +20,41 @@ namespace ETSinventarios
             InitializeComponent();
         }
 
+        public static String Codigo = "";
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
                 string CMD = string.Format("SELECT * FROM Usuario WHERE Nombre = '{0}' AND Clave = '{1}'", texUsuario.Text.Trim(), texPassword.Text.Trim());
 
-                DataSet ds = Utilidades.Ejecutar(CMD); 
+                DataSet ds = Utilidades.Ejecutar(CMD);
+
+                Codigo = ds.Tables[0].Rows[0]["Id_Usuario"].ToString().Trim();
 
                 string cuenta = ds.Tables[0].Rows[0]["Nombre"].ToString().Trim();
                 string password = ds.Tables[0].Rows[0]["Clave"].ToString().Trim();
 
                 if(cuenta == texUsuario.Text.Trim() && password == texPassword.Text.Trim())
                 {
-                    MessageBox.Show("Has iniciado sesión","BIENVENIDO", MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    if (Convert.ToBoolean(ds.Tables[0].Rows[0]["Tipo"]) == true)
+                    {
+                        MessageBox.Show("Has iniciado sesión como Administrador","BIENVENIDO", MessageBoxButtons.OK,MessageBoxIcon.Information);
+                        Administrador administrador = new Administrador();
+                        administrador.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Has iniciado sesión como Invitado", "BIENVENIDO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Usuario usuario = new Usuario();
+                        usuario.Show();
+                        this.Hide();
+                    }
 
-                    Menu menu = new Menu();
+                    /*Menu menu = new Menu();
                     menu.Show();
-                    this.Hide(); 
+                    this.Hide();*/ 
                 }
             }
             catch(Exception error)
@@ -51,6 +68,16 @@ namespace ETSinventarios
         {
             this.Close();
             Application.Exit();
+        }
+
+        private void IniciarSesion_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void IniciarSesion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

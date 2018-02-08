@@ -10,33 +10,31 @@ using System.Windows.Forms;
 
 namespace ETSinventarios
 {
-    public partial class EditarUsuario : Form
+    public partial class Mantenimiento : FormBase
     {
-        public EditarUsuario()
+        public Mantenimiento()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-             
+            Consultar();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Guardar();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Administrador administrador = new Administrador();
-            administrador.Show();
-            this.Hide();
+            Eliminar();
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-
+            Nuevo();
         }
     }
 }
